@@ -90,7 +90,7 @@ A, B, C, D = calculate_coefficients(diameter, period, start_position, height_abo
 sample_size = 101
 
 # for loop to provide the function with many inputs 't' to the function h(t)
-for i in np.arange(0, 101, 0.1):
+for i in np.arange(0, sample_size, 0.1):
     h_of_t = calculate_height_over_time(A, B, C, D, i)
     # append values to the lists defined above
     xs.append(i)
