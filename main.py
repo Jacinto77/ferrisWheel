@@ -61,7 +61,7 @@ ax.set_yticks(np.arange(0, 50, 2))
 # adding an annotation to point out the start and end of a period
 ax.annotate('p1', xy=(0, 1), xytext=(3, 1.5),
             xycoords='data', textcoords='offset points')
-ax.annotate('p2', xy=(10, 1), xytext=(3, 1.5),
+ax.annotate('p2', xy=(5, 1), xytext=(3, 1.5),
             xycoords='data', textcoords='offset points')
 
 # generates the resulting plot
